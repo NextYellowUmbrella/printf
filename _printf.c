@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * _printf - prints anything
- * @format: the format string
- *
+ * _printf - prints a string
+ * @format: string
  * Return: number of bytes printed
  */
 int _printf(const char *format, ...)

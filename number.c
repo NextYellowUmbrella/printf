@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * convert - converter function, a clone of itoa
+ * convert - converter function
  * @num: number
  * @base: base
- * @flags: argument flags
+ * @flags: flags
  * @params: paramater struct
- *
  * Return: string
  */
 char *convert(long int num, int base, int flags, params_t *params)
